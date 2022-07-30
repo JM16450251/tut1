@@ -17,6 +17,10 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    if (args.length != 3){
+      System.out.println("Error: Not enough values were given. You need at least 3");
+      System.exit(0);
+    }
     String language = args[0];
     String country = args[1];
     String name = args[2];
