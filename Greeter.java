@@ -27,4 +27,6 @@ public class Greeter {
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
   }
+
+  //I don't know what more to add for the "More changes section", or if I should even do so.
 }
